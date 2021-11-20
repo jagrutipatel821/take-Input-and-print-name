@@ -4,8 +4,7 @@ public class HelloName {
         System.out.print("Enter the name:-");
         Scanner Sc = new Scanner(System.in);
         String name = Sc.nextLine();
-        System.out.print("Hello ");
-        System.out.println(name);
+        System.out.println("Hello "+name);
     }
     
 }
